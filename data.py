@@ -27,15 +27,16 @@ def adjustData(img, mask, flag_multi_class, num_class):
     if (flag_multi_class):  # 此程序中不是多类情况，所以不考虑这个
         img = img / 255
         mask = mask[:, :, :, 0] if (len(mask.shape) == 4) else mask[:, :, 0]
-        # if else的简洁写法，一行表达式，为真时放在前面，不明白mask.shape=4的情况是什么，由于有batch_size，所以mask就有3维[batch_size,wigth,heigh],估计mask[:,:,0]是写错了，应该写成[0,:,:],这样可以得到一片图片，
+        # if else的简洁写法，一行表达式，为真时放在前面，不明白mask.shape=4的情况是什么，由于有batch_size，所以mask就有3维[batch_size,wigth,heigh],估计mask[:,
+        # :,0]是写错了，应该写成[0,:,:],这样可以得到一片图片，
         new_mask = np.zeros(mask.shape + (num_class,))
         # np.zeros里面是shape元组，此目的是将数据厚度扩展到num_class层，以在层的方向实现one-hot结构
 
         for i in range(num_class):
-            # for one pixel in the image, find the class in mask and convert it into one-hot vector
-            # index = np.where(mask == i)
-            # index_mask = (index[0],index[1],index[2],np.zeros(len(index[0]),dtype = np.int64) + i) if (len(mask.shape) == 4) else (index[0],index[1],np.zeros(len(index[0]),dtype = np.int64) + i)
-            # new_mask[index_mask] = 1
+            # for one pixel in the image, find the class in mask and convert it into one-hot vector index = np.where(
+            # mask == i) index_mask = (index[0],index[1],index[2],np.zeros(len(index[0]),dtype = np.int64) + i) if (
+            # len(mask.shape) == 4) else (index[0],index[1],np.zeros(len(index[0]),dtype = np.int64) + i) new_mask[
+            # index_mask] = 1
             new_mask[mask == i, i] = 1  # 将平面的mask的每类，都单独变成一层，
         new_mask = np.reshape(new_mask, (new_mask.shape[0], new_mask.shape[1] * new_mask.shape[2],
                                          new_mask.shape[3])) if flag_multi_class else np.reshape(new_mask, (
