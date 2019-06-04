@@ -2,9 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d0c75a0-c69b-4d8b-9ce1-2666c7f30bf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_0_9077178.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_0_9077178.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_0_9986536.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_0_9986536.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_10_6660088.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_10_6660088.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_10_7714598.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_10_7714598.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_11_2837909.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_11_2837909.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_11_3622089.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_11_3622089.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_12_1774130.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_12_1774130.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_12_6474794.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_12_6474794.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_13_1283123.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_13_1283123.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_13_2917011.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_13_2917011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_14_170442.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_14_170442.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_14_4412252.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_14_4412252.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_15_191733.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_15_191733.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_15_7159703.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_15_7159703.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_16_2807358.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_16_2807358.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_16_5553526.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_16_5553526.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_17_4097596.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_17_4097596.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_17_5429454.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_17_5429454.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_18_6454050.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_18_6454050.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_18_6777564.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_18_6777564.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_19_3484329.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_19_3484329.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_19_4909798.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_19_4909798.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_1_3080959.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_1_3080959.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_1_6725311.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_1_6725311.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_20_1585978.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_20_1585978.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_20_7169350.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_20_7169350.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_21_1903183.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_21_1903183.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_21_5218449.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_21_5218449.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_22_6690750.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_22_6690750.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_22_817996.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_22_817996.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_23_288044.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_23_288044.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_23_783588.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_23_783588.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_24_4273200.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_24_4273200.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_24_6858616.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_24_6858616.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_25_124914.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_25_124914.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_25_5294864.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_25_5294864.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_26_1931026.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_26_1931026.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_26_8801510.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_26_8801510.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_27_2361256.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_27_2361256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_27_2967675.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_27_2967675.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_28_3456063.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_28_3456063.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_28_4798772.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_28_4798772.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_29_7125951.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_29_7125951.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_29_8786524.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_29_8786524.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_2_5692672.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_2_5692672.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_2_6018253.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_2_6018253.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_3_559344.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_3_559344.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_3_5707479.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_3_5707479.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_4_4979445.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_4_4979445.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_4_8710326.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_4_8710326.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_5_1578477.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_5_1578477.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_5_9230983.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_5_9230983.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_6_53373.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_6_53373.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_6_9441904.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_6_9441904.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_7_5484409.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_7_5484409.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_7_6224010.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_7_6224010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_8_1844539.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_8_1844539.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_8_4209262.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_8_4209262.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_9_5969630.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_9_5969630.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/aug/image_9_8002635.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/membrane/train/aug/image_9_8002635.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/membrane/train/image/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataPrepare.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataPrepare.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,40 +115,69 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="ipynb" value="3" />
+          <entry key="ipynb" value="4" />
           <entry key="md" value="1" />
-          <entry key="py" value="8" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="3" />
+          <entry key="IPNB" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3680" />
+          <entry key="py" value="3691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3680" />
+          <entry key="Python" value="3691" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="25" />
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/binary_photo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataPrepare.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/change_name.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,7 +208,7 @@
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -122,11 +240,11 @@
         <option value="$PROJECT_DIR$/change_name.py" />
         <option value="$PROJECT_DIR$/dcm_png.py" />
         <option value="$PROJECT_DIR$/photo_channel.py" />
-        <option value="$PROJECT_DIR$/dataPrepare.ipynb" />
-        <option value="$PROJECT_DIR$/binary_photo.py" />
         <option value="$PROJECT_DIR$/data.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/dataPrepare.ipynb" />
+        <option value="$PROJECT_DIR$/binary_photo.py" />
       </list>
     </option>
   </component>
@@ -168,6 +286,24 @@
               <item name="Unet-CT" type="b2602c69:ProjectViewProjectNode" />
               <item name="Unet-CT" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Unet-CT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unet-CT" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unet-CT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unet-CT" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="membrane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unet-CT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unet-CT" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="membrane" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.binary_photo">
     <configuration name="unet-master" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="unet-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,8 +468,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.binary_photo" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.photo_channel" />
         <item itemvalue="Python.dcm_png" />
         <item itemvalue="Python.change_name" />
@@ -385,9 +521,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/membrane/train/label/11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/membrane/train/label/12.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -547,25 +680,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataPrepare.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_photo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -592,17 +711,40 @@
     <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="25" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataPrepare.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
