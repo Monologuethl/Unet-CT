@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d0c75a0-c69b-4d8b-9ce1-2666c7f30bf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_photo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataPrepare.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataPrepare.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo_channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_photo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,59 +19,51 @@
     <session id="-1651293083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
-          <entry key="ipynb" value="1" />
-          <entry key="py" value="6" />
+          <entry key="ipynb" value="2" />
+          <entry key="md" value="1" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="1" />
+          <entry key="IPNB" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3566" />
+          <entry key="py" value="3669" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3566" />
+          <entry key="Python" value="3669" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-                <element signature="e#1195#1315#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/binary_photo.py">
+        <entry file="file://$PROJECT_DIR$/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="-1418">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,29 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#1#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-                <element signature="e#687#2041#0" />
-                <element signature="e#2398#3885#0" />
-                <element signature="e#4132#4501#0" />
-                <element signature="e#4724#5639#0" />
-                <element signature="e#5771#6082#0" />
-                <element signature="e#6209#6445#0" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -114,6 +86,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>grayscale</find>
+      <find>testGenerator</find>
+      <find>img = np.reshape(img,img.shape+(1,)) if (not flag_multi_class) else img</find>
+      <find>np.reshape</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -123,11 +103,12 @@
         <option value="$PROJECT_DIR$/trainUnet.ipynb" />
         <option value="$PROJECT_DIR$/change_name.py" />
         <option value="$PROJECT_DIR$/dcm_png.py" />
-        <option value="$PROJECT_DIR$/dataPrepare.ipynb" />
         <option value="$PROJECT_DIR$/photo_channel.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/dataPrepare.ipynb" />
+        <option value="$PROJECT_DIR$/binary_photo.py" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/data.py" />
-        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -161,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,6 +162,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TONG\PycharmProjects\Unet-CT" />
       <recent name="C:\Users\Tong\Desktop\unet-CT\data\membrane" />
       <recent name="C:\Users\Tong\Desktop\unet-CT\data\membrane\train\label" />
       <recent name="C:\Users\Tong\Desktop\unet-master" />
@@ -199,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.photo_channel">
+  <component name="RunManager" selected="Python.binary_photo">
     <configuration name="unet-master" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="unet-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,6 +197,27 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration name="binary_photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="unet-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_photo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="change_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -307,9 +310,11 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.photo_channel" />
       <item itemvalue="Python.dcm_png" />
+      <item itemvalue="Python.binary_photo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_photo" />
         <item itemvalue="Python.photo_channel" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.dcm_png" />
@@ -339,7 +344,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.30756304" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.08235294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,9 +367,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/membrane/train/label/10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/membrane/train/label/11.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -518,27 +520,10 @@
     <entry file="file://$PROJECT_DIR$/data/membrane/0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataPrepare.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1378840039/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="2886" column="8" selection-start-line="2886" selection-start-column="8" selection-end-line="2886" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,35 +536,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="171">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-            <element signature="e#1195#1315#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#687#2041#0" />
-            <element signature="e#2398#3885#0" />
-            <element signature="e#4132#4501#0" />
-            <element signature="e#4724#5639#0" />
-            <element signature="e#5771#6082#0" />
-            <element signature="e#6209#6445#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/dataPrepare.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binary_photo.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -27,6 +27,19 @@ for item in file_list:
     photo_path = os.path.join(os.path.abspath(label), item)
     binary_photo(photo_path)
 
+# src = cv2.imread(r"D:\TONG\PycharmProjects\Unet-CT\1.jpg")
+# B = src[:, :, 0]
+# cv2.imshow("B", B)
+# G = src[:, :, 2]
+#
+# cv2.imshow("B=G", G)
+# R = src[:, :, 2]
+#
+# cv2.imshow("R", R)
+#
+# print(B, G, R)
+#
+# cv2.waitKey(0)
 # a1 = np.array([1,2,3,4],dtype=np.complex128)
 # print(a1)
 # print("数据类型",type(a1))           #打印数组数据类型
