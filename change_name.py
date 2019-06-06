@@ -9,8 +9,8 @@ class BatchRename:
     批量重命名文件夹中的图片文件
     """
 
-    def __init__(self):
-        self.path = r'C:\Users\Tong\Desktop\unet-CT\data\membrane\train\image'  # 表示需要命名处理的文件夹
+    def __init__(self, path):
+        self.path = path  # 表示需要命名处理的文件夹
 
     def rename(self):
         filelist = os.listdir(self.path)  # 获取文件路径
@@ -26,12 +26,12 @@ class BatchRename:
                     os.rename(src, dst)
                     print('converting %s to %s ...' % (src, dst))
                     i = i + 1
-                except:
+                except :
                     continue
         print('total %d to rename & converted %d jpgs' % (total_num, i))
 
 
 if __name__ == '__main__':
-    demo = BatchRename()
+    demo = BatchRename(r'C:\Users\Tong\Desktop\unet-CT\data\membrane\train\image')
     demo.rename()
 
