@@ -15,7 +15,6 @@ data_gen_args = dict(rotation_range=0.2,
                      horizontal_flip=True,
                      fill_mode='nearest')  # 数据增强时的变换方式的字典
 
-
 # 得到一个生成器，以batch=2的速率无限生成增强后的数据
 myGene = trainGenerator(2, 'data/membrane/train', 'image', 'label', data_gen_args, save_to_dir=None)
 
@@ -28,13 +27,13 @@ model_checkpoint = ModelCheckpoint('unet_membrane.hdf5', monitor='loss', verbose
 # 上面一行是利用生成器进行batch_size数量的训练，样本和标签通过myGene传入
 model.fit_generator(myGene, steps_per_epoch=100, epochs=1, callbacks=[model_checkpoint])
 
-
 # ----------------------------------------------------------------------------------------------------------------------
 testGene = testGenerator("data/membrane/test")
 
 # 30是step,steps: 在停止之前，来自 generator 的总步数 (样本批次)。 可选参数 Sequence：如果未指定，将使用len(generator) 作为步数。
 results = model.predict_generator(testGene, 30, verbose=1)
-
+results[results > 0.5] = 255
+results[results < 0.5] = 0
 # 返回值是：预测值的 Numpy 数组。
 saveResult("data/membrane/test", results)
 

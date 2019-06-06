@@ -7,11 +7,11 @@ def binary_photo(path):
     src = cv2.imread(path)  # 读取图像
 
     R = src[:, :, 2]
-    x, y = R.shape
-    for i in range(x):
-        for j in range(y):
-            if R[i, j] != 0:
-                R[i, j] = 255
+    # x, y = R.shape
+    # for i in range(x):
+    #     for j in range(y):
+    #         if R[i, j] != 0:
+    #             R[i, j] = 255
     src_new = np.zeros(src.shape).astype("uint8")
     src_new[:, :, 0] = R
     src_new[:, :, 1] = R
@@ -20,27 +20,28 @@ def binary_photo(path):
     print(path)
 
 
-label = r""
-file_list = os.listdir(label)  # 获取文件路径
+#
+# label = r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\aug"
+# file_list = os.listdir(label)  # 获取文件路径
+#
+# for item in file_list:
+#     photo_path = os.path.join(os.path.abspath(label), item)
+#     binary_photo(photo_path)
 
-for item in file_list:
-    photo_path = os.path.join(os.path.abspath(label), item)
-    binary_photo(photo_path)
+src = cv2.imread(r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\aug\mask_7_5484409.png")
+B = src[:, :, 0]
 
-# src = cv2.imread(r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\image\0.png")
-# B = src[:, :, 0]
-#
-# G = src[:, :, 1]
-#
-# R = src[:, :, 2]
-#
-# cv2.imshow("B", B)
-# cv2.imshow("G", G)
-# cv2.imshow("R", R)
-#
-# print(B, G, R)
-#
-# cv2.waitKey(0)
+G = src[:, :, 1]
+
+R = src[:, :, 2]
+
+cv2.imshow("B", B)
+cv2.imshow("G", G)
+cv2.imshow("R", R)
+
+print(B, G, R)
+
+cv2.waitKey(0)
 
 # a1 = np.array([1,2,3,4],dtype=np.complex128)
 # print(a1)
