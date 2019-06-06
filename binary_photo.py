@@ -20,28 +20,27 @@ def binary_photo(path):
     print(path)
 
 
+label = r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\aug"
+file_list = os.listdir(label)  # 获取文件路径
+
+for item in file_list:
+    photo_path = os.path.join(os.path.abspath(label), item)
+    binary_photo(photo_path)
 #
-# label = r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\aug"
-# file_list = os.listdir(label)  # 获取文件路径
+# src = cv2.imread(r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\aug\mask_7_5484409.png")
+# B = src[:, :, 0]
 #
-# for item in file_list:
-#     photo_path = os.path.join(os.path.abspath(label), item)
-#     binary_photo(photo_path)
-
-src = cv2.imread(r"D:\TONG\PycharmProjects\Unet-CT\data\membrane\train\aug\mask_7_5484409.png")
-B = src[:, :, 0]
-
-G = src[:, :, 1]
-
-R = src[:, :, 2]
-
-cv2.imshow("B", B)
-cv2.imshow("G", G)
-cv2.imshow("R", R)
-
-print(B, G, R)
-
-cv2.waitKey(0)
+# G = src[:, :, 1]
+#
+# R = src[:, :, 2]
+#
+# cv2.imshow("B", B)
+# cv2.imshow("G", G)
+# cv2.imshow("R", R)
+#
+# print(B, G, R)
+#
+# cv2.waitKey(0)
 
 # a1 = np.array([1,2,3,4],dtype=np.complex128)
 # print(a1)
